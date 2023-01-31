@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+}
+
+img {
+    height: 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 30px;   
+    width: 500px;
+}
+
+.name {
+    font-size: 100px;
+}
+
+.recipeBtn {
+    height: 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 2px solid black;
+}
+
+input {
+    width: 50%;
+}
